@@ -1,0 +1,6 @@
+@HostAddress = {{$projectUrl}}
+
+### Get Weather By Zip Code
+
+GET {{HostAddress}}/weather/77356
+Accept: application/json
